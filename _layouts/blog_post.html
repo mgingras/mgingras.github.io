@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body data-spy="scroll" data-target="#navbar">
+  <div id="lazyload"></div>
+  <div class='top' id='top' name='top'></div>
+  {% include navbar.html %}
+<!-- BEGIN Header -->
+    <section class="blog-header">
+        <!--<div class="blog-header-color"></div>-->
+        <div class="blog-header-content parallaxize" style="background:url('/images/blog-post-img.jpg') 50% 0 repeat-x fixed;">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="blog-post-header-title">
+                                <h1>{{ page.title }}.</h1>
+                                <h2 class="blog-post-date">{{ page.month }}</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END Header -->
+    <!-- BEGIN Post -->
+    <section class="post-wrapper">
+        <div class="container">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="authorpic">
+                            <div class="hexaout">
+                                <div class="hexapic"></div>
+                                <img class="hexapic" src='/images/me.png' alt="profpic" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Start Post -->
+                <div class="row">
+                    <div class="blog-post-article">
+                        <article>
+                          <div class="col-lg-12">
+                            {{ content }}
+                          </div>
+                        </article>
+                      </div>
+                  </div>
+                  <!-- End Post -->
+              </div>
+          </div>
+<!--           <div class='img-circle' style='border:black 2px solid;margin-left:40px;width:40px;height:40px;position:relative'>
+            <a href="#navbar" style='font-size:50px;position:absolute;left:1px;top:-22px;'><i class="icon-angle-up"></i></a>
+          </div> -->
+
+    </section>
+    <!-- END Post -->
+<section id="contact" class="contact" style="background:url('/images/contact-background.jpg');">
+    <div class="contact-wrapper" style='padding-top:0px;padding-bottom:60px;'>
+        <div class="container">
+            <div class="credits">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <p class="credits-title">MADE WITH LOVE BY <a class="hovercolor" href="javascript:;">Martin Gingras</a></p>
+                            <a href="http://github.com/mgingras" target="_none"><i class="icon-github icon-social button-white-side"></i></a>
+                            <a href="http://twitter.com/martin_gingras" target="_none"><i class="icon-twitter icon-social button-white-side"></i></a>
+                            <a href="http://LNKDIN.ME/MGINGRAS" target="_none"><i class="icon-linkedin icon-social button-white-side"></i></a>
+                        </div>
+               <!--          <div class="col-lg-6 col-md-6 col-sm-6">
+                            <p class="credits-title-link"><a class="hovercolor" href="javascript:;">Contact</a> / <a class="hovercolor" href="javascript:;">Press</a> / <a class="hovercolor" href="blog.html">Blog</a> / <a class="hovercolor" href="javascript:;">Terms</a>
+                            </p>
+                        </div> -->
+                    </div>
+                    <div class="scroll-up"><a href="#top"><i class="icon-angle-up"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="/js/lib/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/lib/smoothscroll.js"></script>
+  <script src="/js/lib/jquery.superslides.min.js"></script>
+  <script src="/js/lib/jquery.sudoslider.min.js"></script>
+  <script src="/js/lib/jquery.isotope.min.js"></script>
+  <script src="/js/lib/jquery.magnific-popup.min.js"></script>
+  <script src="/js/lib/jquery.parallax.js"></script>
+  <script src="/js/lib/jquery.simple-text-rotator.min.js"></script>
+  <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
+  <script src="/js/lib/gmap3.min.js"></script>
+  <script src="/js/lib/jquery.inview.min.js"></script>
+  <script src="/js/lib/jquery.mixitup.min.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

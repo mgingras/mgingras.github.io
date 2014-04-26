@@ -1,0 +1,14 @@
+name: Martin Gingras
+safe: true
+permalink: /:categories/:title
+url: http://mgingras.ca
+markdown: redcarpet
+port: 4000
+auto: true
+future: false
+exclude:
+- README.md
+- CNAME
+- params.json
+- Gemfile
+- Gemfile.lock

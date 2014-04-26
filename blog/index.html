@@ -1,0 +1,15 @@
+---
+layout: blog
+title: Blog
+description: Here's some things I wrote about stuff
+---
+<div class='container'>
+  <h1>TO-DO</h1>
+  <p>Write some stuff about things.</p>
+</div>
+
+{% for post in site.categories.blog %}
+<h3><i class="icon-terminal"></i> open<a href="{{ project.url }}"> {{ project.title }}/</a></h3>
+<p>{{ project.content | split: '<!-- abridge -->' | first }}</p>
+<hr>
+{% endfor %}

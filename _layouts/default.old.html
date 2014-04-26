@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+  <div class="homeButton">
+    <br>
+    <a style="color:white;" href="/"><i class="fa fa-home fa-3x"></i></a>
+  </div>
+  <div class="wrapper">
+    <div class="sidebar">
+      {% include sidebar.html %}
+    </div>  <!-- sidebar -->
+    <script>
+    var h = $('#sidebar').height();
+    $('#content').slimScroll({
+      wheelStep:2
+    });
+    </script>
+    <div class = "content">
+      {{ content }}
+    </div> <!-- content -->
+  </div> <!-- wrapper -->
+</body>
+</html>

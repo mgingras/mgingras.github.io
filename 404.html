@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Meta Tags -->
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <!--[if IE]><meta http-equiv="X-UA-Compatible" content="chrome=1;IE=edge"> <![endif]> -->
+  <meta name="author" content="Martin Gingras">
+  <meta name="description" content="Martin Gingras, an aspiring software developer">
+  <meta name="keywords" content="Martin,Gingras,Personal,Resume">
+
+  <!-- Apple -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <link rel="apple-touch-icon" href="http://m.c.lnkd.licdn.com/media/p/1/000/18a/2cc/374c4e8.jpg" />
+
+  <!-- standard viewport tag to set the viewport to the device's width
+  	, Android 2.3 devices need this so 100% width works properly and
+  	doesn't allow children to blow up the viewport width-->
+  <meta name="viewport" id="vp" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+  <!-- width=device-width causes the iPhone 5 to letterbox the app, so
+  	we want to exclude it for iPhone 5 to allow full screen apps -->
+  <meta name="viewport" id="vp6" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" />
+  <!-- iPhone 5 Splash Screen -->
+  <!-- <link href="img/splash_1096.png" rel="apple-touch-startup-image" media="(device-height: 568px)"> -->
+  <!-- older iPhone & iPad Splash Screen -->
+  <!-- <link href="img/splash_iphone_2x.png" rel="apple-touch-startup-image" sizes="640x960" media="(device-height: 480px)"> -->
+
+  <link rel="icon" type="image/ico" href="/img/favicon.ico">
+
+
+  <!-- Script to keep iPhone webapp from opening links in safari -->
+  <script src="/js/stay_standalone.js"></script>
+  <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+
+
+  <title>!404!</title>
+
+
+  <!--[if lt IE 9]>
+  <script src="html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif -->
+</head>
+<div class="homeButton">
+  <br>
+  <a style="color:white;" href="/"><i class="icon-home icon-3x"></i></a>
+</div>
+<body style="text-align:center;" onload="countdown">
+  <div class="wrapper">
+    <div class = "content">     
+      <h1>404! FILE NOT FOUND! </h1>
+      <h5>You broke the internet...</h5>
+      <img src="/img/404.jpg">
+      <p>Will try to redirect you in</p>
+      <p id="redirect">5</p>
+      <script>
+      var time = 5;
+      function secondPassed() {
+        if(time ==  0){
+          window.location.replace("http://mgingras.ca");
+        }
+        else{
+          time--;
+         $('#redirect').html(time.toString());
+          console.log(time);
+        }
+      }
+      var countdown = setInterval('secondPassed()', 1000);
+      </script>
+    </div> <!-- content -->
+  </div> <!-- wrapper -->
+  <footer>
+  </footer>
+</body>
+</html>

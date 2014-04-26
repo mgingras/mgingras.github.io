@@ -1,0 +1,15 @@
+---
+layout: blog
+title: Pictures
+description: Here are some pictures of pretty things
+---
+<div class='container'>
+  <h1>TO-DO</h1>
+  <p>Put up some pictures.</p>
+</div>
+
+{% for pictures in site.categories.pictures %}
+<h3><i class="icon-terminal"></i> open<a href="{{ project.url }}"> {{ project.title }}/</a></h3>
+<p>{{ project.content | split: '<!-- abridge -->' | first }}</p>
+<hr>
+{% endfor %}

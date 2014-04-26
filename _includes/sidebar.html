@@ -1,0 +1,39 @@
+<div id="content" style="height:100%;">
+  <img alt="Martin Gingras" src="/img/me.png" style="background-color:white;height:60px; width:60px; margin-right:10px; -webkit-border-radius: 8px 8px 8px 8px;-moz-border-radius: 8px 8px 8px 8px;border-radius: 8px 8px 8px 8px;float:left;">
+  <h1>{{ site.name }}</h1>
+  <h3>Software Developer</h3>
+  <p>Me elsewhere:&nbsp;
+    <a href="http://github.com/mgingras/" target="_blank"><i class="fa fa-github-square fa-lg"></i></a>
+    <a href="http://twitter.com/martin_gingras/" target="_blank"><i class="fa fa-twitter-square fa-lg"></i></a>
+    <a href="http://instagram.com/martinpgingras/" target="_blank"><i class="fa fa-instagram fa-lg"></i></a>
+    <a href="http://www.linkedin.com/in/martinpgingras/" target="_blank"><i class="fa fa-linkedin-square fa-lg"></i></a>
+
+  </p>
+  <p>Get in touch with me:&nbsp;
+    <a id="sendEmail" title="Email Me!"><i class="fa fa-envelope fa-lg"></i></a>
+    &nbsp;<a href='tel:6138502565'><i class="fa fa-phone fa-lg"></i></a>
+    &nbsp;<a href='skype:martin.p.gingras?call'><i class="fa fa-skype fa-lg"></i></a>
+
+
+
+    <form id="email" class="email-to slider closed form-inline" role="form" method="POST" action="//api.formspree.com/martin@mgingras.ca" style="width:90%;">
+      <div class="input-group">
+        <span class="input-group-btn">
+          <button class="btn btn-default disabled send" type="submit">Send</button>
+        </span>
+        <input type="text"  name="_replyto" class="form-control email in" placeholder="Your Email" style="font-size:12px;">
+      </div>
+      <textarea name="message" class="form-control message in" form="email" rows="6" placeholder="Your message" style="width:100%;resize:none;font-size:12px;"></textarea>
+      <input type="hidden" name="_next" value="http://mgingras.ca/thanks.html" />
+    </form>
+  </p>
+  <h2>About me</h2>
+  <nav>
+    <p><i class="fa fa-terminal"></i> open <a href="/resume/resume.pdf">Resume</a></p>
+    <h2><a style="color:#33CC6A;" href="/coding">Coding Projects</a></h2>
+  </nav>
+  {% for project in site.categories.coding limit:5 %}
+  <p><i class="fa fa-terminal"></i> open<a href="{{ project.url }}"> {{ project.title }}/</a></p>
+  {% endfor %}
+  <p style="margin-bottom:5px;"><a href="/coding"> view all...</a></p>
+</div>
