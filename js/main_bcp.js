@@ -15,7 +15,7 @@
 
 	var delay = (function(){
 		var timer = 0;
-		
+
 		return function(callback, ms){
 			clearTimeout (timer);
 			timer = setTimeout(callback, ms);
@@ -81,7 +81,7 @@
 			$('.animaze').bind('inview', function(event, visible) {
 		      if (visible) {
 		        $(this).stop().animate({ opacity: 1,top:'0px'},500);
-		      } 
+		      }
 		      /* REMOVE THIS if you want to repeat the animation after the element not in view
 		      else {
 		        $(this).stop().animate({ opacity: 0 });
@@ -96,8 +96,8 @@
 				speed: 400,
 				responsive: true,
 				prevNext: true,
-				prevHtml: '<a href="#" class="services-arrow-prev"><i class="icon-angle-left"></i></a>', 
-				nextHtml: '<a href="#" class="services-arrow-next"><i class="icon-angle-right"></i></a>', 
+				prevHtml: '<a href="#" class="services-arrow-prev"><i class="icon-angle-left"></i></a>',
+				nextHtml: '<a href="#" class="services-arrow-next"><i class="icon-angle-right"></i></a>',
 				useCSS: true,
 				continuous: true,
 				updateBefore: true
@@ -109,8 +109,8 @@
 				speed: 400,
 				responsive: true,
 				prevNext: true, // Set this to false if you only want to show one quote
-				prevHtml: '<a href="#" class="quote-arrow-prev"><i class="icon-angle-left"></i></a>', 
-				nextHtml: '<a href="#" class="quote-arrow-next"><i class="icon-angle-right"></i></a>', 
+				prevHtml: '<a href="#" class="quote-arrow-prev"><i class="icon-angle-left"></i></a>',
+				nextHtml: '<a href="#" class="quote-arrow-next"><i class="icon-angle-right"></i></a>',
 				useCSS: true,
 				continuous: true,
 				updateBefore: true
@@ -135,8 +135,8 @@
 				numeric: true,
 				responsive: true,
 				prevNext: true,
-				prevHtml: '<a href="#" class="portfolio-arrow-prev"><i class="icon-angle-left"></i></a>', 
-				nextHtml: '<a href="#" class="portfolio-arrow-next"><i class="icon-angle-right"></i></a>', 
+				prevHtml: '<a href="#" class="portfolio-arrow-prev"><i class="icon-angle-left"></i></a>',
+				nextHtml: '<a href="#" class="portfolio-arrow-next"><i class="icon-angle-right"></i></a>',
 				useCSS: true,
 				continuous: true,
 				updateBefore: true
@@ -166,7 +166,7 @@
 	                }
 	             });
 	             return false;
-	        }); 
+	        });
 
 
 			// Mixitup
@@ -179,14 +179,14 @@
 			// Magnific popup for images
 			 $('.popup').magnificPopup({type:'image'});
 			/*
-			$('.popup').magnificPopup({ 
+			$('.popup').magnificPopup({
 			type: 'image',
 			fixedContentPos: false,
 			mainClass: 'mfp-with-zoom',
 				zoom: {
 					enabled: true,
 					duration: 300,
-					easing: 'ease-in-out', 
+					easing: 'ease-in-out',
 					opener: function(openerElement) {
 						return openerElement.is('img') ? openerElement : openerElement.find('img');
 					}
@@ -204,23 +204,23 @@
 			});
 			*/
 			//Map
-		    $('#map').gmap3({
-		        map: {
-		          options: {
-		            maxZoom: 15
-		          }
-		        },
-		        marker: {
-		          address: "Haltern am See, Weseler Str. 151", // PUT YOUR ADDRESS HERE
-		          options: {
-		            icon: new google.maps.MarkerImage(
-		              "http://cdn.webiconset.com/map-icons/images/pin6.png",
-		              new google.maps.Size(42, 69, "px", "px")
-		            )
-		          }
-		        }
-     	      },
-		      "autofit");
+		    // $('#map').gmap3({
+		    //     map: {
+		    //       options: {
+		    //         maxZoom: 15
+		    //       }
+		    //     },
+		    //     marker: {
+		    //       address: "Haltern am See, Weseler Str. 151", // PUT YOUR ADDRESS HERE
+		    //       options: {
+		    //         icon: new google.maps.MarkerImage(
+		    //           "http://cdn.webiconset.com/map-icons/images/pin6.png",
+		    //           new google.maps.Size(42, 69, "px", "px")
+		    //         )
+		    //       }
+		    //     }
+     	//       },
+		    //   "autofit");
 
 			// Contact Form
 			$('#contact').submit(function(e) {
@@ -248,11 +248,11 @@
 							}
 							else if(resp.errorCode == 3){
 								$('#contactMessage').addClass('error').focus();
-							}	
-						}					
+							}
+						}
 					}
 				});
-			
+
 				return false;
 			});
 
@@ -267,11 +267,11 @@
 		domReady: function(){},
 		windowLoad: function(){
 			$('#loader').fadeOut(1600, "linear");
-			
+
 			$('a.popup').each(function(){
                 var t = $(this),
                     img = $('<img />');
-                 
+
                     img.attr('src', t.attr('href'));
             });
 		}
