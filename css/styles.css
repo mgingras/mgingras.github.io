@@ -1271,7 +1271,7 @@ i.icon-mini:hover {
     text-align: center;
 }
 .portfolioFilter a.active {
-    text-decoration: line-through;
+    font-weight: 700;
 }
 .portfolioFilter a:hover {
     color:#f83a16;
