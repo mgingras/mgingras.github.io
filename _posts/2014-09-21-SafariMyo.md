@@ -4,7 +4,7 @@ title: Myo Safari Navigation
 categories: projects
 month: September, 2014
 ---
-####Check it out: [BYO-DJ](http://www.byo-dj.com)
+####Check it out on [Github](https://github.com/mgingras/MyoSafariNav)
 #####*Control browser navigation in Safri using only gestures*
 
 <p><strong>Built using:</strong>&nbsp;&nbsp;<span title="JavaScript" class="pict-prog-js02 fa-2x"> </span></p>

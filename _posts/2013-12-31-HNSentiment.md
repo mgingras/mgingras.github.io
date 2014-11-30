@@ -5,7 +5,7 @@ categories: projects
 month: December, 2013
 ---
 
-####Check it out: [HN Sentiment](http://hn-sentiment.com)
+####Check it out: [HN Sentiment](http://hn-sentiment.herokuapp.com)
 #####*Web application that allows users to anylize the sentiment of the Hacker News community towards a particular topic*
 
 <p><strong>Built using:</strong>&nbsp;&nbsp;<span title="Node.js" class="pict-prog-nodejs01 fa-2x"> </span>&nbsp;<span title="CoffeeScript" class="pict-prog-coffeescr fa-2x"> </span>&nbsp;<span title="JQuery" class="pict-prog-jquery fa-2x"> </span>&nbsp;<span title="HTML5" class="pict-html5-01 fa-2x"> </span>&nbsp;<span title="CSS3" class="pict-css3-01 fa-2x"> </span></p>
@@ -15,7 +15,7 @@ I completed this project over a few days of my Christmas '13 holidays for the Ir
 
 <!-- abridge -->
 
-<object data=http://www.hn-sentiment.com width="100%" height="550px"> <embed src=http://www.hn-sentiment.com width="100%" height="500px"> </embed> <a href="http://www.hn-sentiment.com">www.fbomb.co</a> </object>
+<object data=http://hn-sentiment.herokuapp.com width="100%" height="550px"> <embed src=http://hn-sentiment.herokuapp.com width="100%" height="500px"> </embed> <a href="http://hn-sentiment.herokuapp.com">http://hn-sentiment.herokuapp.com</a> </object>
 
 
 ###Technical Stuff
