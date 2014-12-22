@@ -48,7 +48,7 @@
   <div class="wrapper">
     <div class = "content">
       <h1>Thank you for the email!!!</h1>
-      <img src="/img/thanks.gif">
+      <img src="/images/thanks.gif">
       <p>Will try to redirect you in</p>
       <p id="redirect">5</p>
       <script>
@@ -60,7 +60,6 @@
         else{
           time--;
          $('#redirect').html(time.toString());
-          console.log(time);
         }
       }
       var countdown = setInterval('secondPassed()', 1000);
