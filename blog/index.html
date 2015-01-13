@@ -1,15 +1,35 @@
 ---
 layout: blog
 title: Blog
-description: Here's some things I wrote about stuff
+description: Some stuff that came from my head
 ---
-<div class='container'>
-  <h1>TO-DO</h1>
-  <p>Write some stuff about things.</p>
-</div>
 
-{% for post in site.categories.blog %}
-<h3><i class="icon-terminal"></i> open<a href="{{ project.url }}"> {{ project.title }}/</a></h3>
-<p>{{ project.content | split: '<!-- abridge -->' | first }}</p>
-<hr>
-{% endfor %}
+<div class="post-wrapper">
+  <div class='container'>
+    <div class="wrapper">
+      <div class="row">
+        {% for blog in site.categories.blog %}
+
+        <article class="post">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1 class="post-title"><a class="hovercolor" href="{{ blog.url }}">{{ blog.title }}</a>
+                        </h1>
+                    </div>
+                    <div class="col-lg-6">
+                        <time class="post_date" datetime="2013-10-18">
+                            {{blog.month}}
+                        </time>
+                    </div>
+                </div>
+                <div class="post_excerpt">
+                    {{ blog.content | split: '<!-- abridge -->' | first }} <a href="{{ blog.url }}" class="hovercolor readmore">Read More</a>
+                </div>
+            </div>
+        </article>
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
