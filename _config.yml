@@ -4,6 +4,7 @@ permalink: /:categories/:title
 url: http://mgingras.ca
 markdown: redcarpet
 port: 4000
+paginate: 5
 auto: true
 future: false
 exclude:
