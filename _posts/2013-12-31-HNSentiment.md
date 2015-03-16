@@ -8,7 +8,7 @@ month: December, 2013
 ####Check it out: [HN Sentiment](http://hn-sentiment.herokuapp.com)
 #####*Web application that allows users to anylize the sentiment of the Hacker News community towards a particular topic*
 
-<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="Node.js" class="pict-prog-nodejs01 fa-2x"> </span>&nbsp;<span title="CoffeeScript" class="pict-prog-coffeescr fa-2x"> </span>&nbsp;<span title="JQuery" class="pict-prog-jquery fa-2x"> </span>&nbsp;<span title="HTML5" class="pict-html5-01 fa-2x"> </span>&nbsp;<span title="CSS3" class="pict-css3-01 fa-2x"> </span></p>
+<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="Node.js" class="pict-prog-nodejs02 fa-2x"> </span>&nbsp;<span title="CoffeeScript" class="pict-prog-coffeescr fa-2x"> </span>&nbsp;<span title="JQuery" class="pict-prog-jquery fa-2x"> </span>&nbsp;<span title="HTML5" class="pict-html5-01 fa-2x"> </span>&nbsp;<span title="CSS3" class="pict-css3-01 fa-2x"> </span></p>
 
 I completed this project over a few days of my Christmas '13 holidays for the Iron.io hackathon (where it placed [2nd](http://blog.iron.io/2014/01/holiday-hack-winners.html)). The intent is to generalize the way the entire Hacker News community feels towards a particular topic based on the sentiment in their comments on a post containing the searched keyword.
 

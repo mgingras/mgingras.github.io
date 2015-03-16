@@ -7,7 +7,7 @@ categories: projects
 ####Check it out: [mgprinting](http://mgprinting.herokuapp.com/)
 #####*A simple photo gallery/print ordering proof of concept*
 
-<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="PHP" class="pict-prog-php02 fa-2x"> </span>&nbsp;<span title="MySQL" class="pict-dbs-mysql icon-3x"> </span>&nbsp;<span title="JavaScript" class="pict-prog-js02 fa-2x"> </span>&nbsp;<span title="HTML5" class="pict-html5-01 fa-2x"> </span>&nbsp;<span title="CSS3" class="pict-css3-01 fa-2x"> </span></p>
+<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="PHP" class="pict-prog-php02 fa-2x"> </span>&nbsp;<span title="MySQL" class="pict-dbs-mysql icon-3x"> </span>&nbsp;<span title="JavaScript" class="pict-prog-js01 fa-2x"> </span>&nbsp;<span title="HTML5" class="pict-html5-01 fa-2x"> </span>&nbsp;<span title="CSS3" class="pict-css3-01 fa-2x"> </span></p>
 
 
 

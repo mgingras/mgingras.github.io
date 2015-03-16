@@ -7,7 +7,7 @@ month: September, 2014
 ####Check it out on [Github](https://github.com/mgingras/MyoSafariNav)
 #####*Control browser navigation in Safri using only gestures*
 
-<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="JavaScript" class="pict-prog-js02 fa-2x"> </span></p>
+<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="JavaScript" class="pict-prog-js01 fa-2x"> </span></p>
 
 In September 2014, I went down to Waterloo for "Hack The North", and got the opportunity to get my hands on a Myo by Thalmic Labs. I was already working on another hack at this point, but I couldn't resist playing around with this neat toy for a few hours. In barely any time I wrote a simple Safari plugin that allows users to do basic browser navigation using only hand gestures.
 

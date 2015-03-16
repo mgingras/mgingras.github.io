@@ -8,11 +8,11 @@ month: April, 2013
 ####Check it out: [\[*synonym-izer*\]](http://www.synonym-izer.com/)
 #####*Takes what you wrote and says the same thing differently*
 
-<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="Node.js" class="pict-prog-nodejs01 fa-2x"> </span>&nbsp;<span title="MongoDB" class="pict-dbs-mongodb fa-2x"> </span>&nbsp;<span title="JavaScript" class="pict-prog-js02 fa-2x"> </span>&nbsp;<span title="JQuery" class="pict-prog-jquery fa-2x"> </span>&nbsp;<span title="HTML5" class="pict-html5-01 fa-2x"> </span>&nbsp;<span title="CSS3" class="pict-css3-01 fa-2x"> </span></p>
+<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="Node.js" class="pict-prog-nodejs02 fa-2x"> </span>&nbsp;<span title="MongoDB" class="pict-dbs-mongodb fa-2x"> </span>&nbsp;<span title="JavaScript" class="pict-prog-js01 fa-2x"> </span>&nbsp;<span title="JQuery" class="pict-prog-jquery fa-2x"> </span>&nbsp;<span title="HTML5" class="pict-html5-01 fa-2x"> </span>&nbsp;<span title="CSS3" class="pict-css3-01 fa-2x"> </span></p>
 
-This is a program which takes inputted text and substitute words within it for their synonyms.   
+This is a program which takes inputted text and substitute words within it for their synonyms.
 
-I have recently taken a keen interest in web development and am looking to hone my skills in it. I have heard very good things about NodeJS and as such have decided to pursue my interest in it. What particularly appeals to me about node is the simplicity of creating non-blocking code and writing both the front end and back end in JavaScript.    
+I have recently taken a keen interest in web development and am looking to hone my skills in it. I have heard very good things about NodeJS and as such have decided to pursue my interest in it. What particularly appeals to me about node is the simplicity of creating non-blocking code and writing both the front end and back end in JavaScript.
 
 <!-- abridge -->
 
@@ -34,7 +34,7 @@ I have recently taken a keen interest in web development and am looking to hone 
 (Depending how large this exception list gets I may move the exception checking to the server...)
 
 ###Thesaurus API
-Originally I planned to use the [merriam-webster](http://www.dictionaryapi.com/) dictionary since they have an open API that allows you to query items to their thesaurus and will feed back XML data.   
+Originally I planned to use the [merriam-webster](http://www.dictionaryapi.com/) dictionary since they have an open API that allows you to query items to their thesaurus and will feed back XML data.
 
 However, their api limits you to 1000 requests per day and XML is the only return format.
 
