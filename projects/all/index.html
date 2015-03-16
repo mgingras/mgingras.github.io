@@ -7,7 +7,7 @@ description: Here is a list of some of the projects that I have worked on recent
   <div class='container'>
     <div class="wrapper">
       <div class="row">
-        {% for project in site.categories.projects limit:10 %}
+        {% for project in site.categories.projects %}
 
         <article class="post">
             <div class="col-lg-12">
@@ -28,11 +28,6 @@ description: Here is a list of some of the projects that I have worked on recent
             </div>
         </article>
       {% endfor %}
-      </div>
-      <div class="row">
-        <div class="col-sm-4 col-sm-offset-4 text-center">
-          <h2><a href='/projects/all'>See All...</a></h2>
-        </div>
       </div>
     </div>
   </div>

@@ -56,12 +56,12 @@ Here is a screenshot of a fresh game. Once you press start a timer is started an
 quickly.   
 
 
-<div style="width:100%;height:auto;margin-bottom:10px;"><img src="/img/shitsweeper_start.jpg" style="width:100%;height:auto;" alt="Shitsweeper Start"></div>
+<div style="width:100%;height:auto;margin-bottom:10px;"><img src="/images/shitsweeper_start.jpg" style="width:100%;height:auto;" alt="Shitsweeper Start"></div>
 
 
 This is a screenshot of a finished game. As you can see, once you found all of the un-mined spaces the game is
 ended and the board is revealed and you are given the option to play again.
 
-<div style="width:100%;height:auto;margin-bottom:10px;"><img src="/img/shitsweeper_over.jpg" style="width:100%;height:auto;" alt="Shitsweeper Start"></div>
+<div style="width:100%;height:auto;margin-bottom:10px;"><img src="/images/shitsweeper_over.jpg" style="width:100%;height:auto;" alt="Shitsweeper Start"></div>
 
 See the [code...](https://github.com/mgingras/shitsweeper-game-swing)
