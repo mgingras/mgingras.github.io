@@ -106,13 +106,3 @@ dp(window).load(function() {
 
 ga('create', 'UA-42796191-1', 'mgingras.ca');
 ga('send', 'pageview');
-
-new Timesheet('timesheet-alternative', 2010, 2015, [
-  ['08/2010', '04/2015', '<strong>Carleton University</strong> - Honours BCS: Software Engineering Stream', 'carleton'],
-  ['04/2012', '12/2012', '<strong>IBM</strong> - Business Intelligence Technical Analyst', 'ibm'],
-  ['01/2013', '08/2013', '<strong>BlackBerry</strong> - Wireless Data Application Developer', 'blackberry'],
-  ['11/2013', '04/2014', '<strong>Contract</strong> - Software Development', 'contract'],
-  ['01/2014', '04/2014', '<strong>Carleton Universtity</strong> - Teaching Assistant: Introduction to Systems Programming', 'carleton'],
-  ['04/2014', '08/2014', '<strong>IBM</strong> - Extreme Blue Technical Intern', 'ibm'],
-  ['09/2014', '02/2015', '<strong>IBM</strong> - Full Stack Software Developer', 'ibm']
-]);
