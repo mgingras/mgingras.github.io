@@ -23,6 +23,9 @@
 .timesheet.color-scheme-default .bubble-contract {
     background-color: #33CC6A;
 }
+.timesheet.color-scheme-default .bubble-hive {
+    background-color: #FAD630;
+}
 .timesheet.color-scheme-default .bubble-sit {
     background-color: RGBA(169, 105, 202, 1)
 }
@@ -40,6 +43,9 @@
 }
 .timesheet.color-scheme-alternative .bubble-contract {
     background-color: #f4d234
+}
+.timesheet.color-scheme-alternative .bubble-hive {
+    background-color: #FAD630;
 }
 .timesheet.color-scheme-alternative .bubble-set {
     background-color: #707d86
