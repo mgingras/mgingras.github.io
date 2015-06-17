@@ -106,3 +106,38 @@ dp(window).load(function() {
 
 ga('create', 'UA-42796191-1', 'mgingras.ca');
 ga('send', 'pageview');
+
+
+$ = jQuery;
+$(function() {
+    $('#emailFormSubmit').on('click', function(e) {
+        e.preventDefault();
+        var data = {};
+        var inputs = $('#contactForm').serializeArray();
+        var invalid = false;
+        $.each(inputs, function (i, input) {
+            if(input.name === '_gotcha'){
+                if(input.value != ''){
+                    invalid = true;
+                }
+            } else {
+                if(input.value === ''){
+                    invalid = true;
+                }
+            }
+            data[input.name] = input.value;
+        });
+        if(invalid){
+            alert('Please fill in all the fields in the form');
+            return;
+        }
+        $.ajax({
+            url: "//www.mgforms.com/martin@mgingras.ca",
+            method: "POST",
+            data: data,
+            dataType: "json"
+        }).done(function() {
+          window.location = 'https://mgingras.ca/thanks.html';
+        });
+    });
+})
