@@ -1,9 +1,68 @@
----
-layout: default
-title: 404
-root: true
----
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta charset="utf-8">
+  <meta name="author" content="Martin Gingras">
+  <meta name="description" content="The personal website of Martin Gingras, Full Stack Software Developer at Hive (YC S14).">
 
+  <meta name="keywords" content="Martin,Gingras,Personal,Resume,Software,Programming,Programmer,Web Development,Developer,Canada,Carleton,University,Student,Engineering,Web,Ottawa">
+  <meta charset="utf-8">
+
+  <!-- Apple Shit -->
+  <meta name="apple-mobile-web-app-capable" content="yes" >
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" >
+
+  <link rel="apple-touch-icon" href="/images/icon.png" >
+  <link rel="apple-touch-icon-precomposed" href="/images/icon.png" >
+
+  <!-- standard viewport tag to set the viewport to the device's width
+  , Android 2.3 devices need this so 100% width works properly and
+  doesn't allow children to blow up the viewport width-->
+  <meta name="viewport" id="vp" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" >
+  <!-- width=device-width causes the iPhone 5 to letterbox the app, so
+  we want to exclude it for iPhone 5 to allow full screen apps -->
+  <meta name="viewport" id="vp6" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" >
+
+  <!-- Open Graph Shit -->
+  <meta property="og:title" content="Martin Gingras' Personal Website">
+  <meta property="og:image" content="http://mgingras.ca/images/icon.png">
+  <meta property="og:url" content="http://mgingras.ca/">
+  <meta property="og:description" content="I am a CS student at Carleton University in Ottawa. This site is to share my projects and experiences and the struggles and successes that surround them.">
+
+  <!-- For IE -->
+  <link rel="shortcut icon" href="/images/favicon/favicon.ico" type="image/x-icon">
+
+  <!-- For Everything else... -->
+  <link rel="icon" href="/images/favicon/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font-Awesome -->
+  <link href="/css/lib/font-awesome.min.css" rel="stylesheet">
+  <!-- Pictonic -->
+  <link href="/css/lib/pictonic.min.css" rel="stylesheet">
+  <!-- Timesheet.js -->
+  <link rel="stylesheet" type="text/css" href="/css/lib/timesheet.min.css">
+  <!-- STYLE CSS -->
+  <link href="/css/styles.css" rel="stylesheet">
+
+  <!-- Color Scheme CSS -->
+  <link href="/css/martin.css" rel="stylesheet" id="clscheme">
+
+
+  <!-- PACE.JS -->
+  <script src="/js/lib/pace.min.js"></script>
+  <script src="js/lib/jquery.min.js"></script>
+
+  <title>Page not found</title>
+
+
+  <!--[if lt IE 9]>
+  <script src="html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif -->
+</head>
 <body style="text-align:center;" onload="countdown">
   <div class="wrapper">
     <div class = "content">
@@ -13,18 +72,22 @@ root: true
       <p>Will try to redirect you in</p>
       <p id="redirect">5</p>
       <script>
-      var time = 5;
-      function secondPassed() {
-        if(time ==  0){
-          window.location.replace("http://mgingras.ca");
-        }
-        else{
-          time--;
-         $('#redirect').html(time.toString());
-          console.log(time);
-        }
-      }
-      var countdown = setInterval('secondPassed()', 1000);
+        $(function() {
+          var time = 5;
+          var  secondPassed = function() {
+            if(time ===  0){
+              window.location.replace("http://mgingras.ca");
+            }
+            else{
+              time--;
+             $('#redirect').html(time.toString());
+              console.log(time);
+            }
+          }
+          countdown = setInterval(secondPassed, 1000);
+        });
       </script>
     </div> <!-- content -->
   </div> <!-- wrapper -->
+</body>
+</html>

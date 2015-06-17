@@ -1,37 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!-- Meta Tags -->
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <!--[if IE]><meta http-equiv="X-UA-Compatible" content="chrome=1;IE=edge"> <![endif]> -->
+  <meta charset="utf-8">
   <meta name="author" content="Martin Gingras">
-  <meta name="description" content="Martin Gingras, an aspiring software developer">
-  <meta name="keywords" content="Martin,Gingras,Personal,Resume">
+  <meta name="description" content="The personal website of Martin Gingras, Full Stack Software Developer at Hive (YC S14).">
 
-  <!-- Apple -->
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-  <link rel="apple-touch-icon" href="http://m.c.lnkd.licdn.com/media/p/1/000/18a/2cc/374c4e8.jpg" />
+  <meta name="keywords" content="Martin,Gingras,Personal,Resume,Software,Programming,Programmer,Web Development,Developer,Canada,Carleton,University,Student,Engineering,Web,Ottawa">
+  <meta charset="utf-8">
+
+  <!-- Apple Shit -->
+  <meta name="apple-mobile-web-app-capable" content="yes" >
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" >
+
+  <link rel="apple-touch-icon" href="/images/icon.png" >
+  <link rel="apple-touch-icon-precomposed" href="/images/icon.png" >
 
   <!-- standard viewport tag to set the viewport to the device's width
-    , Android 2.3 devices need this so 100% width works properly and
-    doesn't allow children to blow up the viewport width-->
-  <meta name="viewport" id="vp" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+  , Android 2.3 devices need this so 100% width works properly and
+  doesn't allow children to blow up the viewport width-->
+  <meta name="viewport" id="vp" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" >
   <!-- width=device-width causes the iPhone 5 to letterbox the app, so
-    we want to exclude it for iPhone 5 to allow full screen apps -->
-  <meta name="viewport" id="vp6" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" />
-  <!-- iPhone 5 Splash Screen -->
-  <!-- <link href="img/splash_1096.png" rel="apple-touch-startup-image" media="(device-height: 568px)"> -->
-  <!-- older iPhone & iPad Splash Screen -->
-  <!-- <link href="img/splash_iphone_2x.png" rel="apple-touch-startup-image" sizes="640x960" media="(device-height: 480px)"> -->
+  we want to exclude it for iPhone 5 to allow full screen apps -->
+  <meta name="viewport" id="vp6" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" >
 
-  <link rel="icon" type="image/ico" href="/img/favicon.ico">
+  <!-- Open Graph Shit -->
+  <meta property="og:title" content="Martin Gingras' Personal Website">
+  <meta property="og:image" content="http://mgingras.ca/images/icon.png">
+  <meta property="og:url" content="http://mgingras.ca/">
+  <meta property="og:description" content="I am a CS student at Carleton University in Ottawa. This site is to share my projects and experiences and the struggles and successes that surround them.">
+
+  <!-- For IE -->
+  <link rel="shortcut icon" href="/images/favicon/favicon.ico" type="image/x-icon">
+
+  <!-- For Everything else... -->
+  <link rel="icon" href="/images/favicon/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font-Awesome -->
+  <link href="/css/lib/font-awesome.min.css" rel="stylesheet">
+  <!-- Pictonic -->
+  <link href="/css/lib/pictonic.min.css" rel="stylesheet">
+  <!-- Timesheet.js -->
+  <link rel="stylesheet" type="text/css" href="/css/lib/timesheet.min.css">
+  <!-- STYLE CSS -->
+  <link href="/css/styles.css" rel="stylesheet">
+
+  <!-- Color Scheme CSS -->
+  <link href="/css/martin.css" rel="stylesheet" id="clscheme">
 
 
-  <!-- Script to keep iPhone webapp from opening links in safari -->
-  <script src="/js/stay_standalone.js"></script>
-  <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-
+  <!-- PACE.JS -->
+  <script src="/js/lib/pace.min.js"></script>
+  <script src="js/lib/jquery.min.js"></script>
 
   <title>Thanks for the email!</title>
 
@@ -48,17 +71,19 @@
       <p>Will try to redirect you in</p>
       <p id="redirect">5</p>
       <script>
-      var time = 5;
-      function secondPassed() {
-        if(time ==  0){
-          window.location.replace("http://mgingras.ca");
-        }
-        else{
-          time--;
-         $('#redirect').html(time.toString());
-        }
-      }
-      var countdown = setInterval('secondPassed()', 1000);
+        $(function() {
+          var time = 5;
+          secondPassed = function() {
+            if(time ===  0){
+              window.location.replace("http://mgingras.ca");
+            }
+            else{
+              time--;
+             $('#redirect').html(time.toString());
+            }
+          }
+          countdown = setInterval(secondPassed, 1000);
+        });
       </script>
     </div> <!-- content -->
   </div> <!-- wrapper -->
