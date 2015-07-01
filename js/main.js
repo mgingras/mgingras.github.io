@@ -132,10 +132,11 @@ $(function() {
             return;
         }
         $.ajax({
-            url: "//www.mgforms.com/martin@mgingras.ca",
-            method: "POST",
+            url: '//www.mgforms.com/martin@mgingras.ca',
+            method: 'POST',
+            crossDomain: true,
             data: data,
-            dataType: "json"
+            dataType: 'json'
         }).done(function() {
           window.location = 'https://mgingras.ca/thanks.html';
         });
