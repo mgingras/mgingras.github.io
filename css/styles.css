@@ -1090,8 +1090,8 @@ i.icon-mini:hover {
 .intro h2 {
     font-weight: 400;
 }
-/* ===================== HOWTO  ========================== */
- .howto {
+/* ===================== ME  ========================== */
+ .ME {
     padding-top: 60px;
     padding-bottom: 80px;
     background: #F4F4F4;
@@ -1498,7 +1498,7 @@ i.icon-mini:hover {
 }
 .about .team {
     padding-top: 60px;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
     background: #F4F4F4;
 }
 .cprofile {
