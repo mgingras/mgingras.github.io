@@ -1,0 +1,51 @@
+https://keybase.io/mpg
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mgingras.ca
+  * I am mpg (https://keybase.io/mpg) on keybase.
+  * I have a public key ASDAxrlLh0ir9cdOC5EVUB_hAXiajRFHdMkI3vcip2VLzQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120c0c6b94b8748abf5c74e0b9115501fe101789a8d114774c908def722a7654bcd0a",
+            "host": "keybase.io",
+            "kid": "0120c0c6b94b8748abf5c74e0b9115501fe101789a8d114774c908def722a7654bcd0a",
+            "uid": "00d9c8a97043e2bfc76dcb0924259819",
+            "username": "mpg"
+        },
+        "service": {
+            "hostname": "mgingras.ca",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1469717356,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1469717312,
+        "hash": "d4670597e9ead1d03bf9ab13ce50ffdb37bd63212bc01e016ac8d6ecb3aff099bc8f6ab1b12487e9e7113908af8b946ca899b4f0acfc3e81f85da08033952e40",
+        "seqno": 546345
+    },
+    "prev": "4ee108908f92af5133fad868676b273119f9f5b72c1a77f28cd544532461ed23",
+    "seqno": 12,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgwMa5S4dIq/XHTguRFVAf4QF4mo0RR3TJCN73IqdlS80Kp3BheWxvYWTFAu97ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYzBjNmI5NGI4NzQ4YWJmNWM3NGUwYjkxMTU1MDFmZTEwMTc4OWE4ZDExNDc3NGM5MDhkZWY3MjJhNzY1NGJjZDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYzBjNmI5NGI4NzQ4YWJmNWM3NGUwYjkxMTU1MDFmZTEwMTc4OWE4ZDExNDc3NGM5MDhkZWY3MjJhNzY1NGJjZDBhIiwidWlkIjoiMDBkOWM4YTk3MDQzZTJiZmM3NmRjYjA5MjQyNTk4MTkiLCJ1c2VybmFtZSI6Im1wZyJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoibWdpbmdyYXMuY2EiLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xNiJ9LCJjdGltZSI6MTQ2OTcxNzM1NiwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDY5NzE3MzEyLCJoYXNoIjoiZDQ2NzA1OTdlOWVhZDFkMDNiZjlhYjEzY2U1MGZmZGIzN2JkNjMyMTJiYzAxZTAxNmFjOGQ2ZWNiM2FmZjA5OWJjOGY2YWIxYjEyNDg3ZTllNzExMzkwOGFmOGI5NDZjYTg5OWI0ZjBhY2ZjM2U4MWY4NWRhMDgwMzM5NTJlNDAiLCJzZXFubyI6NTQ2MzQ1fSwicHJldiI6IjRlZTEwODkwOGY5MmFmNTEzM2ZhZDg2ODY3NmIyNzMxMTlmOWY1YjcyYzFhNzdmMjhjZDU0NDUzMjQ2MWVkMjMiLCJzZXFubyI6MTIsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAbdWY1XcoO9rYLnCL4l9Tfr+9ddJSKjV92hGZ6w5Eb4x5b4ZXLq3NVQqXX+dMO6tXn5kC+56k5OhC5Gfed0l8AahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDMcrwETrDn/Bz3iaFVsjQ7dBEAGtnrocOfmNJhfjJtoo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mpg
