@@ -6,7 +6,7 @@ month: December, 2013
 ---
 
 ####Check it out: [HN Sentiment](http://hn-sentiment.herokuapp.com)
-#####*Web application that allows users to anylize the sentiment of the Hacker News community towards a particular topic*
+ #####*Web application that allows users to analyze the sentiment of the Hacker News community towards a particular topic*
 
 <p><strong>Built using:</strong>&nbsp;&nbsp;<span title="Node.js" class="pict-prog-nodejs02 fa-2x"> </span>&nbsp;<span title="CoffeeScript" class="pict-prog-coffeescr fa-2x"> </span>&nbsp;<span title="JQuery" class="pict-prog-jquery fa-2x"> </span>&nbsp;<span title="HTML5" class="pict-html5-01 fa-2x"> </span>&nbsp;<span title="CSS3" class="pict-css3-01 fa-2x"> </span></p>
 
