@@ -31,6 +31,7 @@ root: true
                 </p>
             </div>
         </li>
+        {% comment %}
         <li>
             <!-- Slide -->
             <div class="slides-filter"></div>
@@ -44,6 +45,7 @@ root: true
                 </p>
             </div>
         </li>
+        {% endcomment %}
     </ul>
     <nav class="slides-navigation">
         <a href="javascript:;" class="prev"><i class="fa fa-angle-left"></i></a>
@@ -53,6 +55,7 @@ root: true
 </div>
 <!-- END Slider -->
 <!-- BEGIN Intro -->
+{% comment %}
 <section class="intro">
     <div class="container">
         <div class="wrapper">
@@ -64,70 +67,74 @@ root: true
         </div>
     </div>
 </section>
+{% endcomment %}
 <!-- END Intro -->
 <!-- BEGIN ME -->
+{% comment %}
 <section id="ME" class="ME">
-        <div class="container">
-            <div class="wrapper">
-                <div class="row">
-                    <div class="col-lg-12  animaze fromTop">
-                        <div class="title text-center">
-                            <h1>I am</h1>
-                            <hr/>
-                        </div>
+    <div class="container">
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-lg-12  animaze fromTop">
+                    <div class="title text-center">
+                        <h1>I am</h1>
+                        <hr/>
                     </div>
-                    <!-- featured 1 -->
-                    <div class="col-lg-4 animaze fromBottom">
-                        <div class="featured-box">
-                            <div class="featured-icon">
-                                <i class="fa fa-sitemap"></i>
-                                <span></span>
-                            </div>
-                            <div class="featured-desc">
-                                <h3>A Full Stack Software Developer</h3>
-                                <div class='container' style='max-width:500px'>
-                                  <p>I can hack the entire stack, from single page front end apps with responsive designs, to the complex backends and databases to support them.</p>
-                                </div>
-                            </div>
+                </div>
+                <!-- featured 1 -->
+                <div class="col-lg-4 animaze fromBottom">
+                    <div class="featured-box">
+                        <div class="featured-icon">
+                            <i class="fa fa-sitemap"></i>
+                            <span></span>
                         </div>
-                    </div>
-                    <!-- featured 2 -->
-                    <div class="col-lg-4 animaze fromBottom">
-                        <div class="featured-box">
-                            <div class="featured-icon">
-                                <i class="fa fa-lightbulb-o" style='margin-left:2px;'></i>
-                                <span></span>
-                            </div>
-                            <div class="featured-desc">
-                                <h3>A Quick Learner</h3>
-                                <div class='container' style='max-width:500px'>
-                                  <p>I have taught myself many of the frameworks and languages that I most frequently work with. I am always looking for new APIs to explore and tools to try.</p>
-                                </div>
+                        <div class="featured-desc">
+                            <h3>A Full Stack Software Developer</h3>
+                            <div class='container' style='max-width:500px'>
+                              <p>I can hack the entire stack, from single page front end apps with responsive designs, to the complex backends and databases to support them.</p>
                             </div>
                         </div>
                     </div>
-                    <!-- featured 3 -->
-                    <div class="col-lg-4 animaze fromTop">
-                        <div class="featured-box">
-                            <div class="featured-icon">
-                                <i class="fa fa-eye"></i>
-                                <span></span>
+                </div>
+                <!-- featured 2 -->
+                <div class="col-lg-4 animaze fromBottom">
+                    <div class="featured-box">
+                        <div class="featured-icon">
+                            <i class="fa fa-lightbulb-o" style='margin-left:2px;'></i>
+                            <span></span>
+                        </div>
+                        <div class="featured-desc">
+                            <h3>A Quick Learner</h3>
+                            <div class='container' style='max-width:500px'>
+                              <p>I have taught myself many of the frameworks and languages that I most frequently work with. I am always looking for new APIs to explore and tools to try.</p>
                             </div>
-                            <div class="featured-desc">
-                                <h3>Collaborative</h3>
-                                <div class='container' style='max-width:500px'>
-                                  <p>I enjoy working with others. If you have a neat idea I'd love to hear about it and help out where I can.</p>
-                                </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- featured 3 -->
+                <div class="col-lg-4 animaze fromTop">
+                    <div class="featured-box">
+                        <div class="featured-icon">
+                            <i class="fa fa-eye"></i>
+                            <span></span>
+                        </div>
+                        <div class="featured-desc">
+                            <h3>Collaborative</h3>
+                            <div class='container' style='max-width:500px'>
+                              <p>I enjoy working with others. If you have a neat idea I'd love to hear about it and help out where I can.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+{% endcomment %}
 <!-- END ME -->
 <!-- BEGIN About -->
 <section id="about" class="about">
+    {% comment %}
     <div class="slider-about-wrapper" style="background:url('images/about-us-background.jpg');">
         <div class="slider-about">
             <div class="container">
@@ -144,6 +151,7 @@ root: true
             </div>
         </div>
     </div>
+    {% endcomment %}
     <div class="team">
         <div class="container">
             <div class="wrapper">
@@ -163,9 +171,7 @@ root: true
                     </div>
                     <div class='container'>
                         <p>
-                            I am a recent graduate of Honours Computer Science at Carleton University in Ottawa, Canada. In my last year at Carleton I worked full time at IBM developing Watson Analytics. Since graduating I've been working at Hive transforming how artists and brands understand their fans and those of their competitors.
-                            <br><br>
-                            The intent of this site is to provide a place for me to publish my projects abd share my experiences. I encourage you to browse around and feel free to contact me with any questions, suggestions or just to chat.
+                            I am a full stack software developer with experience hacking on the entire stack. I am comfortable building complex back ends, elegant front ends, and managing the infrastructure to stand it up. I thrive in a challenging environment where I am always on the verge of being overwhelmed.
                             <br><br>
                             - Martin<br>
                             <a href="mailto:martin@mgingras">martin@mgingras.ca</a>
@@ -174,17 +180,6 @@ root: true
                     </div>
                     <ul class="dp_tmtimeline hidden-md hidden-lg">
                         <li>
-                            <time class="dp_tmtime" datetime="2013-04-10 18:30">
-                                <span>May</span>
-                                <span>2012</span>
-                            </time>
-                            <div class="dp_tmicon fa fa-question"></div>
-                            <div class="dp_tmlabel animaze fromTop">
-                                <h2>IBM<br><small>Business Intelligence Technical Analyst</small></h2>
-                                <p>Provided technical software support to Fortune 1000 companies for the Cognos BI product suite. Solved issues regarding admin and security, databases, report design, and web servers on a variety of operating systems.</p>
-                            </div>
-                        </li>
-                        <li>
                             <time class="dp_tmtime" datetime="2013-04-11T12:04">
                                 <span>January</span>
                                 <span>2013</span>
@@ -192,7 +187,7 @@ root: true
                             <div class="dp_tmicon fa fa-flask"></div>
                             <div class="dp_tmlabel animaze fromTop">
                                 <h2>BlackBerry<br><small>Wireless Data Application Developer</small></h2>
-                                <p>Worked on bugfixes and new features for the newly released BlackBerry 10 operating system. Followed features through from their inception through to completion, all the while collaborating to ensure the highest quality of code.</p>
+                                <p>Fixed bugs and added features on the Radio Resource Manager for the first iteration of BalckBerry 10 devices. Was involved in guiding features from  inception through to completion. Collaborated through code review throughout to ensure the highest quality of code.</p>
                             </div>
                         </li>
                         <li>
@@ -203,7 +198,7 @@ root: true
                             <div class="dp_tmicon fa fa-bookmark-o"></div>
                             <div class="dp_tmlabel animaze fromTop">
                                 <h2>Carleton University<br><small>Teaching Assistant: Intro to Systems Programming</small></h2>
-                                <p>Was responsive to student inqueries on our forums, graded assignments and tests, and ran labs and office hours to interactively assist students with learning the fundementals of systems programming in C.</p>
+                                <p>Ran teaching labs, held office hours, and graded assignments and tests. Helped dozens of students learn the fundamentals of systems programming in C.</p>
                             </div>
                         </li>
                         <li>
@@ -214,7 +209,7 @@ root: true
                             <div class="dp_tmicon fa fa-desktop"></div>
                             <div class="dp_tmlabel animaze fromTop">
                                 <h2>Freelance<br><small>Software Developer</small></h2>
-                                <p>I have developed a variety of custom web applications and static sites for clients across North America. I complete projects quickly and to specification and follow up to ensure satisfaction long after delivery.</p>
+                                <p>Developed a variety of custom web applications and static sites for clients around the world. I complete projects quickly and to specification and follow up to ensure satisfaction long after delivery.</p>
                             </div>
                         </li>
                         <li>
@@ -225,7 +220,7 @@ root: true
                             <div class="dp_tmicon fa fa-desktop"></div>
                             <div class="dp_tmlabel animaze fromTop">
                                 <h2>IBM<br><small>Extreme Blue: <strong>Social Media Analytics</strong></small></h2>
-                                <p>Worked to implement scalbable access to IBM's Social Media Analytics tool as a service on BlueMix, IBM's new Platfrom as a service. Created custom web applications to showcase the capabilities of our product. Devised and delivered a pitch to senior executives within IBM on the business value of our proposition.</p>
+                                <p>Implemented scalbable API access to IBM's Social Media Analytics tool, deployed as a service on BlueMix, IBM's Platfrom as a service offering. Created a custom web applications for a large partner to showcase the capabilities of this product. Pitched the potential of our product to senior executives, including the CEO, within IBM.</p>
                             </div>
                         </li>
                         <li>
@@ -236,7 +231,7 @@ root: true
                             <div class="dp_tmicon fa fa-desktop"></div>
                             <div class="dp_tmlabel animaze fromTop">
                                 <h2>IBM<br><small>Software Developer</small></h2>
-                                <p>Developed new features and fixed bugs for IBM's new Watson Analytics SaaS offering. Improved the Assemble component's functional test suite by improving coverage while reducing running time and impact on developers.</p>
+                                <p>Implemented and Improved  new features and fixed bugs for IBM's new Watson Analytics SaaS offering. Increased the speed and stability of our products functional test suite by dockerizing our environment so the tests could run headless and in parallel. These changes effectively saved hundreds of developer hours while increasing the speed and reliability of our deployment pipeline.</p>
                             </div>
                         </li>
                         </li>
@@ -262,7 +257,7 @@ root: true
                               ['01/2014', '04/2014', '<strong>Carleton Universtity</strong> - Teaching Assistant: Introduction to Systems Programming', 'carleton'],
                               ['04/2014', '08/2014', '<strong>IBM</strong> - Extreme Blue Technical Intern', 'ibm'],
                               ['09/2014', '02/2015', '<strong>IBM</strong> - Full Stack Software Developer (Watson Analytics)', 'ibm'],
-                              ['03/2015', '07/2017', '<strong>Hive (YC S14)</strong> - Full Stack Developer', 'hive']
+                              ['03/2015', '11/2017', '<strong>Hive (YC S14)</strong> - Full Stack Developer', 'hive']
                             ]);
                         });
                         </script>
@@ -302,32 +297,31 @@ root: true
                                         <div class='col-xs-6 col-sm-4'>
                                           <h6>Experienced with</h6>
                                           <ul style="list-style-type: none;">
-                                            <li><span class="pict-prog-python"> Python</span></li>
-                                            <li><span class="pict-prog-django"> Django</span></li>
-                                            <li><span class="pict-prog-nodejs02"> NodeJS</span></li>
-                                            <li><span class="pict-prog-coffeescr"> CoffeeScript</span></li>
-                                            <li><span class="pict-prog-js02"> JavaScript</span></li>
-                                            <li><span class="pict-dbs-mongodb"> MongoDB</span></li>
-                                            <li><span class="pict-prog-jquery"> jQuery</span></li>
-                                            <li><span class="pict-html5-01"> / <span class="pict-css3-01"></span> Web</span></li>
-                                            <li><span class="pict-dbs-couchdb"> CouchDB</span></li>
-                                            <li><span class="pict-prog-java"> Java</span></li>
-                                            <li><span class="pict-prog-ruby"> Ruby</span></li>
-                                            <li><span class="pict-prog-ccplusplus"> C and C++</span></li>
-                                            <li><span class="pict-dbs-mysql"> SQL</span></li>
-                                            <li><span class="pict-dbs-redis"> Redis</span></li>
+                                            <li><span class="pict-prog-python"></span> Python</li>
+                                            <li><span class="pict-prog-django"></span> Django</li>
+                                            <li><span class="pict-dbs-mongodb"></span> MongoDB</li>
+                                            <li><span class="pict-dbs-mysql"></span> SQL</li>
+                                            <li><span class="pict-dbs-redis"></span> Redis</li>
+                                            <li><span class="pict-prog-nodejs02"></span> NodeJS</li>
+                                            <li><span class="pict-prog-coffeescr"></span> CoffeeScript</li>
+                                            <li><span class="pict-prog-js02"></span> JavaScript</li>
+                                            <li><span class="fa fa-search"></span> Elasticsearch</li>
+                                            <li><span class="pict-prog-jquery"></span> jQuery</li>
+                                            <li><span class="pict-html5-01"> / <span class="pict-css3-01"></span></span> Web</li>
                                           </ul>
                                         </div>
                                         <div class='col-xs-6'>
                                           <h6>Rudimentary</h6>
                                           <ul style="list-style-type: none;">
-                                            <li><span class="pict-prog-rails"> Rails</span></li>
-                                            <li><span class="pict-prog-golang01"> Go</span></li>
-                                            <li><span class="pict-prog-objc"> Objective-C</span></li>
-                                            <li><span class="pict-prog-bash02"> Bash</span></li>
-                                            <li><span class="pict-dbs-sqlite"> SQLite</span></li>
-                                            <li><span class="pict-prog-php01"> PHP</span></li>
-                                            <li><span class="pict-prog-drupal"> Drupal</span></li>
+                                            <li><span class="pict-prog-rails"></span> Rails</li>
+                                            <li><span class="pict-prog-ruby"></span> Ruby</li>
+                                            <li><span class="pict-dbs-couchdb"></span> CouchDB</li>
+                                            <li><span class="pict-prog-java"></span> Java</li>
+                                            <li><span class="pict-prog-ccplusplus"></span> C and C++</li>
+                                            <li><span class="pict-prog-golang01"></span> Go</li>
+                                            <li><span class="pict-prog-objc"></span> Objective-C</li>
+                                            <li><span class="fa fa-mobile"></span> Swift</li>
+                                            <li><span class="pict-prog-bash02"></span> Bash</li>
                                           </ul>
                                         </div>
                                       </div>
@@ -343,14 +337,15 @@ root: true
                                         <div class='col-sm-3 col-xs-1'></div>
                                         <div class='col-xs-9'>
                                           <ul style="list-style-type: none;">
-                                            <li><span class="pict-twitter-3"> Twitter</span></li>
-                                            <li><span class="pict-google"> Google Maps JS v3</span></li>
-                                            <li><span class="pict-instagram"> Instagram</span></li>
-                                            <li><span class="pict-facebook"> Facebook</span></li>
-                                            <li><span class="pict-soundcloud"> Soundcloud</span></li>
-                                            <li><span class="pict-youtube"> Youtube</span></li>
-                                            <li><span class="pict-spotify"> Spotify</span></li>
-                                            <li><span class="pict-amazon"> AWS</span></li>
+                                            <li><span class="pict-amazon"></span> AWS</li>
+                                            <li><span class="fa fa-windows"></span> Azure</li>
+                                            <li><span class="pict-twitter-3"></span> Twitter</li>
+                                            <li><span class="pict-google"></span> Google Maps JS v3</li>
+                                            <li><span class="pict-instagram"></span> Instagram</li>
+                                            <li><span class="pict-facebook"></span> Facebook</li>
+                                            <li><span class="pict-soundcloud"></span> Soundcloud</li>
+                                            <li><span class="pict-youtube"></span> Youtube</li>
+                                            <li><span class="pict-spotify"></span> Spotify</li>
                                           </ul>
                                         </div>
                                       </div>
@@ -366,9 +361,9 @@ root: true
                                         <div class='col-xs-3'></div>
                                         <div class='col-xs-9'>
                                           <ul style="list-style-type: none;">
-                                            <li><span class="pict-os-apple-dark"> OS X</span></li>
-                                            <li><span class="pict-os-linux_1_"> Linux</span></li>
-                                            <li><span class="pict-os-win-04"> Windows</span></li>
+                                            <li><span class="pict-os-apple-dark"></span> OS X</li>
+                                            <li><span class="pict-os-linux_1_"></span> Linux</li>
+                                            <li><span class="pict-os-win-04"></span> Windows</li>
                                           </ul>
                                         </div>
                                       </div>
@@ -384,9 +379,9 @@ root: true
                                         <div class='col-sm-3 col-xs-1'></div>
                                         <div class='col-xs-6'>
                                           <ul style="list-style-type: none;">
-                                            <li><span class="pict-vc-git"> Git</span></li>
-                                            <li><span class="pict-vc-svn"> SVN</span></li>
-                                            <li><span class="pict-share"> RTC</span></li>
+                                            <li><span class="pict-vc-git"></span> Git</li>
+                                            <li><span class="pict-vc-svn"></span> SVN</li>
+                                            <li><span class="pict-share"></span> RTC</li>
                                           </ul>
                                         </div>
                                       </div>
@@ -411,6 +406,7 @@ root: true
 </section>
 <!-- END Services -->
 <!-- BEGIN Portfolio -->
+{% comment %}
 <section id="portfolio" class="portfolio">
     <div class="container">
         <div class="wrapper">
@@ -491,8 +487,10 @@ root: true
         </div>
     </div>
 </section>
+{% endcomment %}
 <!-- END Portfolio -->
 <!-- BEGIN Call to Action -->
+{% comment %}
 <section class="action text-center">
     <div class="action-wrapper">
         <div class="container">
@@ -511,7 +509,8 @@ root: true
         </div>
     </div>
 </section>
-<!-- END Call to Action -->
+{% endcomment %}
+<!-- END Call to Acvtion -->
 <!-- BEGIN Contact -->
 <section id="contact" class="contact" style="background:url('/images/contact-background.jpg');">
     <div class="contact-wrapper">
@@ -524,7 +523,7 @@ root: true
                                 <li>
                                     <!-- Contact details -->
                                     <div class="row">
-                                        <div class="col-lg-6">
+                                     <!--    <div class="col-lg-6">
                                             <form id="contactForm" class="contact-form">
                                                 <input type="hidden" name="_next" value="https://mgingras.ca/thanks.html" style='display:none;' />
                                                 <input type="text" name="_gotcha" style='display:none;' />
@@ -548,11 +547,11 @@ root: true
                                                     </div>
                                                 </div>
                                             </form>
-                                        </div>
-                                        <div class="col-lg-6">
+                                        </div> -->
+                                        <div class="col-lg-12">
                                             <div class="bio">
-                                                <h3>// Contact Me</h3>
-                                                <p>Give me a shout through any of means listed, I'd love to hear from you.</p>
+                                                <h3>// Contact</h3>
+                                                <p>Interested in chatting, collaborating, or anything else; feel free to reach out through any means listed.</p>
                                             </div>
                                             <ul class="bioextra">
                                                 <li>
@@ -575,7 +574,7 @@ root: true
                                             <br/>
                                             <p class="visit"><a data-rel="3" class="contactLink hovercolor" href="javascript:;"><i class="fa fa-map-marker"></i></a>
                                             </p>
-                                            <p>Ottawa
+                                            <p>Kitchener
                                                 <br>Ontario, Canada</p>
                                             <a href="http://github.com/mgingras" target="_blank"><i class="fa fa-github icon-social button-white-side"></i></a>
                                             <a href="http://twitter.com/martin_gingras" target="_blank"><i class="fa fa-twitter icon-social button-white-side"></i></a>
@@ -591,9 +590,9 @@ root: true
             <div class="credits">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12">
+                        <!-- <div class="col-lg-12 col-md-12 col-sm-12">
                             <p class="credits-title">MADE WITH LOVE BY <a class="hovercolor" href="javascript:;">Martin Gingras</a></p>
-                        </div>
+                        </div> -->
                <!--          <div class="col-lg-6 col-md-6 col-sm-6">
                             <p class="credits-title-link"><a class="hovercolor" href="javascript:;">Contact</a> / <a class="hovercolor" href="javascript:;">Press</a> / <a class="hovercolor" href="blog.html">Blog</a> / <a class="hovercolor" href="javascript:;">Terms</a>
                             </p>
