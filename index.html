@@ -238,7 +238,7 @@ root: true
                         <li>
                             <time class="dp_tmtime" datetime="2013-05-08 13:15">
                                 <span>March</span>
-                                <span>2015</span>
+                                <span>2015 - Present</span>
                             </time>
                             <div class="dp_tmicon fa fa-desktop"></div>
                             <div class="dp_tmlabel animaze fromTop">
@@ -251,13 +251,14 @@ root: true
                         <div id="timesheet-alternative" class='hidden-xs hidden-sm' style='padding:0px;'></div>
                         <script>
                         $(function(){
+                            var today = new Date();
                             new Timesheet('timesheet-alternative', 2013, 2016, [
                               ['01/2013', '04/2015', '<strong>Carleton University</strong> - Honours BCS: Software Engineering Stream', 'carleton'],
                               ['01/2013', '08/2013', '<strong>BlackBerry</strong> - Wireless Data Application Developer', 'blackberry'],
                               ['01/2014', '04/2014', '<strong>Carleton Universtity</strong> - Teaching Assistant: Introduction to Systems Programming', 'carleton'],
                               ['04/2014', '08/2014', '<strong>IBM</strong> - Extreme Blue Technical Intern', 'ibm'],
                               ['09/2014', '02/2015', '<strong>IBM</strong> - Full Stack Software Developer (Watson Analytics)', 'ibm'],
-                              ['03/2015', '02/2018', '<strong>Hive (YC S14)</strong> - Full Stack Developer', 'hive']
+                              ['03/2015', `${('00' + today.getMonth()).slice(-2)}/${today.getFullYear()}`, '<strong>Hive (YC S14)</strong> - Full Stack Developer', 'hive']
                             ]);
                         });
                         </script>
