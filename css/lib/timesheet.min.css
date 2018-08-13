@@ -26,6 +26,9 @@
 .timesheet.color-scheme-default .bubble-hive {
     background-color: #FAD630;
 }
+.timesheet.color-scheme-default .bubble-shopify {
+    background-color: #A4BB68;
+}
 .timesheet.color-scheme-default .bubble-sit {
     background-color: RGBA(169, 105, 202, 1)
 }
@@ -46,6 +49,9 @@
 }
 .timesheet.color-scheme-alternative .bubble-hive {
     background-color: #FAD630;
+}
+.timesheet.color-scheme-default .bubble-shopify {
+    background-color: #A4BB68;
 }
 .timesheet.color-scheme-alternative .bubble-set {
     background-color: #707d86
