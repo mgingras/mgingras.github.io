@@ -4,214 +4,214 @@ title: Blog References
 ---
 
 # Software Engineering Blogs
-**Companies**   
+**Companies**
 <div class='row'>
     <div class='col-xs-6'>
-        [8th](Light http://blog.8thlight.com/)   
-        [AdRoll](http://tech.adroll.com/blog/)   
-        [Adzerk](http://adzerk.com/tech/)   
-        [Airbnb](http://nerds.airbnb.com/)   
-        [AirPair](https://www.airpair.com/posts)   
-        [Algolia](https://blog.algolia.com/)   
-        [Allegro](http://allegrotech.io)   
-        [Artsy](http://artsy.github.io/)   
-        [Asana](https://eng.asana.com/)   
-        [Atlassian](https://developer.atlassian.com/blog/)   
-        [Auth0](https://auth0.com/blog/)   
-        [AWeber](http://engineering.aweber.com/)   
-        [Azavea](http://www.azavea.com/blogs/labs/)   
-        [Badoo](https://techblog.badoo.com/)   
-        [Bandcamp](http://bandcamptech.wordpress.com/)   
-        [Base Lab](https://lab.getbase.com/category/engineering/)   
-        [Bazaarvoice](http://blog.developer.bazaarvoice.com/)   
-        [BenefitFocus](http://engineering.benefitfocus.com/)   
-        [Bigcommerce](http://bigeng.io/)   
-        [Binary Studio](http://binary-studio.com/blog/)   
-        [Bitly](http://word.bitly.com/)   
-        [BitTorrent](http://engineering.bittorrent.com/)   
-        [BlaBlaCar](http://blablatech.com/blog/)   
-        [BloomReach](http://engineering.bloomreach.com/)   
-        [Booking com](http://blog.booking.com/)   
-        [Box](https://www.box.com/blog/engineering/)   
-        [Boxever](http://www.boxever.com/tech-blog)   
-        [Brandwatch](http://engineering.brandwatch.com/)   
-        [Buzzfeed](http://www.buzzfeed.com/techblog)   
-        [Canva](https://engineering.canva.com)   
-        [Carbon Five](http://blog.carbonfive.com/)   
-        [Cerner](http://engineering.cerner.com/)   
-        [Chartbeat](http://engineering.chartbeat.com/)   
-        [Clever](http://engineering.clever.com/)   
-        [Cloudera](http://blog.cloudera.com/blog/)   
-        [Cloudflare](http://blog.cloudflare.com/)   
-        [ClusterHQ](https://clusterhq.com/blog/)   
-        [Code School](https://www.codeschool.com/blog/category/development/)   
-        [Codementor](https://www.codementor.io/tutorial)   
-        [CodeName One](http://www.codenameone.com/blog.html)   
-        [Codeship](http://blog.codeship.com/)   
-        [Collective Idea](http://collectiveidea.com/blog/)   
-        [Confluent](http://blog.confluent.io/)   
-        [Coolblue](http://devblog.coolblue.nl/)   
-        [Criteo](http://engineering.criteolabs.com/)   
-        [DataFox](http://eng.datafox.co/)   
-        [DeferPanic](https://deferpanic.com/blog/)   
-        [DigitalOcean](https://www.digitalocean.com/community/tutorials)   
-        [Docker](http://blog.docker.com/category/engineering/)   
-        [Dropbox](https://blogs.dropbox.com/tech/)   
-        [Ebay](http://www.ebaytechblog.com/)   
-        [Engine Yard](https://blog.engineyard.com/)   
-        [Etsy](https://codeascraft.com/)   
-        [Eventbrite](https://engineering.eventbrite.com/)   
-        [Evernote](https://blog.evernote.com/tech/)   
-        [EverythingMe](http://geeks.everything.me/)   
-        [Facebook](https://code.facebook.com/posts/)   
-        [Facebook](A ResearchI https://research.facebook.com/blog/ai/)   
-        [Fiftythree](http://making.fiftythree.com/)   
-        [Finn no](http://tech.finn.no/)   
-        [Flickr](http://code.flickr.net/)   
-        [Flipboard](http://engineering.flipboard.com/)   
-        [Flipkart](http://tech-blog.flipkart.net/)   
-        [Foursquare](http://engineering.foursquare.com/)   
-        [Funding Circle](https://engineering.fundingcircle.com/)   
-        [Galois](https://galois.com/blog/)   
-        [GameChanger](http://tech.gc.com/)   
-        [GitHub](http://githubengineering.com/)   
-        [GitHub Old](https://github.com/blog/category/engineering)   
-        [Gilt](http://tech.gilt.com)   
-        [Gnip](https://engineering.gnip.com/)   
-        [GoCardless](https://gocardless.com/blog/tagged/engineering/)   
-        [Good Eggs](http://bites.goodeggs.com/)   
-        [GoSquared](https://engineering.gosquared.com/)   
-        [Grammarly](http://tech.grammarly.com)   
-        [Grouper](http://eng.joingrouper.com/)   
-        [Groupon](https://engineering.groupon.com/)   
-        [Guardian](http://www.theguardian.com/info/developer-blog)   
-        [HackerEarth](http://engineering.hackerearth.com/)   
-        [Harry s](http://engineering.harrys.com/)   
-        [Heroku](http://engineering.heroku.com/)   
-        [Holiday Extras](http://hungrygeek.holidayextras.co.uk/)   
-        [Honeybadger](http://blog.honeybadger.io/)   
-        [Hootsuite](http://code.hootsuite.com/)   
-        [Hoteltonight](http://engineering.hoteltonight.com/)   
-        [IMVU](http://engineering.imvu.com/)   
-        [Indeed](http://engineering.indeed.com/blog/)   
-        [Instagram](http://instagram-engineering.tumblr.com/)   
-        [Intent HQ](http://engineering.intenthq.com/)   
-        [Intent Media](http://intentmedia.com/blog/)   
-        [Jane Street](https://blogs.janestreet.com/)   
-        [Just Eat](http://tech.just-eat.com/)   
-        [Khan Academy](http://engineering.khanacademy.org)   
-        [Kickstarter](https://www.kickstarter.com/backing-and-hacking)   
-        [LinkedIn](https://engineering.linkedin.com/blog)   
-        [Linkedcare](https://medium.com/the-engineering-team)   
-        [LiveChat](http://developers.livechatinc.com/blog/)   
-        [LivingSocial](https://techblog.livingsocial.com/)   
-        [Localytics](http://eng.localytics.com/)   
+        <a href="http://blog.8thlight.com">8th Light</a><br/>
+        <a href="http://tech.adroll.com/blog/">AdRoll</a><br/>
+        <a href="http://adzerk.com/tech/">Adzerk</a><br/>
+        <a href="http://nerds.airbnb.com/">Airbnb</a><br/>
+        <a href="https://www.airpair.com/posts">AirPair</a><br/>
+        <a href="https://blog.algolia.com/">Algolia</a><br/>
+        <a href="http://allegrotech.io">Allegro</a><br/>
+        <a href="http://artsy.github.io/">Artsy</a><br/>
+        <a href="https://eng.asana.com/">Asana</a><br/>
+        <a href="https://developer.atlassian.com/blog/">Atlassian</a><br/>
+        <a href="https://auth0.com/blog/">Auth0</a><br/>
+        <a href="http://engineering.aweber.com/">AWeber</a><br/>
+        <a href="http://www.azavea.com/blogs/labs/">Azavea</a><br/>
+        <a href="https://techblog.badoo.com/">Badoo</a><br/>
+        <a href="http://bandcamptech.wordpress.com/">Bandcamp</a><br/>
+        <a href="https://lab.getbase.com/category/engineering/">Base Lab</a><br/>
+        <a href="http://blog.developer.bazaarvoice.com/">Bazaarvoice</a><br/>
+        <a href="http://engineering.benefitfocus.com/">BenefitFocus</a><br/>
+        <a href="http://bigeng.io/">Bigcommerce</a><br/>
+        <a href="http://binary-studio.com/blog/">Binary Studio</a><br/>
+        <a href="http://word.bitly.com/">Bitly</a><br/>
+        <a href="http://engineering.bittorrent.com/">BitTorrent</a><br/>
+        <a href="http://blablatech.com/blog/">BlaBlaCar</a><br/>
+        <a href="http://engineering.bloomreach.com/">BloomReach</a><br/>
+        <a href="http://blog.booking.com/">Booking com</a><br/>
+        <a href="https://www.box.com/blog/engineering/">Box</a><br/>
+        <a href="http://www.boxever.com/tech-blog">Boxever</a><br/>
+        <a href="http://engineering.brandwatch.com/">Brandwatch</a><br/>
+        <a href="http://www.buzzfeed.com/techblog">Buzzfeed</a><br/>
+        <a href="https://engineering.canva.com">Canva</a><br/>
+        <a href="http://blog.carbonfive.com/">Carbon Five</a><br/>
+        <a href="http://engineering.cerner.com/">Cerner</a><br/>
+        <a href="http://engineering.chartbeat.com/">Chartbeat</a><br/>
+        <a href="http://engineering.clever.com/">Clever</a><br/>
+        <a href="http://blog.cloudera.com/blog/">Cloudera</a><br/>
+        <a href="http://blog.cloudflare.com/">Cloudflare</a><br/>
+        <a href="https://clusterhq.com/blog/">ClusterHQ</a><br/>
+        <a href="https://www.codeschool.com/blog/category/development/">Code School</a><br/>
+        <a href="https://www.codementor.io/tutorial">Codementor</a><br/>
+        <a href="http://www.codenameone.com/blog.html">CodeName One</a><br/>
+        <a href="http://blog.codeship.com/">Codeship</a><br/>
+        <a href="http://collectiveidea.com/blog/">Collective Idea</a><br/>
+        <a href="http://blog.confluent.io/">Confluent</a><br/>
+        <a href="http://devblog.coolblue.nl/">Coolblue</a><br/>
+        <a href="http://engineering.criteolabs.com/">Criteo</a><br/>
+        <a href="http://eng.datafox.co/">DataFox</a><br/>
+        <a href="https://deferpanic.com/blog/">DeferPanic</a><br/>
+        <a href="https://www.digitalocean.com/community/tutorials">DigitalOcean</a><br/>
+        <a href="http://blog.docker.com/category/engineering/">Docker</a><br/>
+        <a href="https://blogs.dropbox.com/tech/">Dropbox</a><br/>
+        <a href="http://www.ebaytechblog.com/">Ebay</a><br/>
+        <a href="https://blog.engineyard.com/">Engine Yard</a><br/>
+        <a href="https://codeascraft.com/">Etsy</a><br/>
+        <a href="https://engineering.eventbrite.com/">Eventbrite</a><br/>
+        <a href="https://blog.evernote.com/tech/">Evernote</a><br/>
+        <a href="http://geeks.everything.me/">EverythingMe</a><br/>
+        <a href="https://code.facebook.com/posts/">Facebook</a><br/>
+        <a href="A ResearchI https://research.facebook.com/blog/ai/">Facebook</a><br/>
+        <a href="http://making.fiftythree.com/">Fiftythree</a><br/>
+        <a href="http://tech.finn.no/">Finn no</a><br/>
+        <a href="http://code.flickr.net/">Flickr</a><br/>
+        <a href="http://engineering.flipboard.com/">Flipboard</a><br/>
+        <a href="http://tech-blog.flipkart.net/">Flipkart</a><br/>
+        <a href="http://engineering.foursquare.com/">Foursquare</a><br/>
+        <a href="https://engineering.fundingcircle.com/">Funding Circle</a><br/>
+        <a href="https://galois.com/blog/">Galois</a><br/>
+        <a href="http://tech.gc.com/">GameChanger</a><br/>
+        <a href="http://githubengineering.com/">GitHub</a><br/>
+        <a href="https://github.com/blog/category/engineering">GitHub Old</a><br/>
+        <a href="http://tech.gilt.com">Gilt</a><br/>
+        <a href="https://engineering.gnip.com/">Gnip</a><br/>
+        <a href="https://gocardless.com/blog/tagged/engineering/">GoCardless</a><br/>
+        <a href="http://bites.goodeggs.com/">Good Eggs</a><br/>
+        <a href="https://engineering.gosquared.com/">GoSquared</a><br/>
+        <a href="http://tech.grammarly.com">Grammarly</a><br/>
+        <a href="http://eng.joingrouper.com/">Grouper</a><br/>
+        <a href="https://engineering.groupon.com/">Groupon</a><br/>
+        <a href="http://www.theguardian.com/info/developer-blog">Guardian</a><br/>
+        <a href="http://engineering.hackerearth.com/">HackerEarth</a><br/>
+        <a href="http://engineering.harrys.com/">Harry s</a><br/>
+        <a href="http://engineering.heroku.com/">Heroku</a><br/>
+        <a href="http://hungrygeek.holidayextras.co.uk/">Holiday Extras</a><br/>
+        <a href="http://blog.honeybadger.io/">Honeybadger</a><br/>
+        <a href="http://code.hootsuite.com/">Hootsuite</a><br/>
+        <a href="http://engineering.hoteltonight.com/">Hoteltonight</a><br/>
+        <a href="http://engineering.imvu.com/">IMVU</a><br/>
+        <a href="http://engineering.indeed.com/blog/">Indeed</a><br/>
+        <a href="http://instagram-engineering.tumblr.com/">Instagram</a><br/>
+        <a href="http://engineering.intenthq.com/">Intent HQ</a><br/>
+        <a href="http://intentmedia.com/blog/">Intent Media</a><br/>
+        <a href="https://blogs.janestreet.com/">Jane Street</a><br/>
+        <a href="http://tech.just-eat.com/">Just Eat</a><br/>
+        <a href="http://engineering.khanacademy.org">Khan Academy</a><br/>
+        <a href="https://www.kickstarter.com/backing-and-hacking">Kickstarter</a><br/>
+        <a href="https://engineering.linkedin.com/blog">LinkedIn</a><br/>
+        <a href="https://medium.com/the-engineering-team">Linkedcare</a><br/>
+        <a href="http://developers.livechatinc.com/blog/">LiveChat</a><br/>
+        <a href="https://techblog.livingsocial.com/">LivingSocial</a><br/>
+        <a href="http://eng.localytics.com/">Localytics</a><br/>
     </div>
     <div class='col-xs-6'>
-        [Lookout](http://hackers.lookout.com/)   
-        [Magnet me](https://labs.magnet.me)   
-        [MailChimp](http://devs.mailchimp.com/blog/)   
-        [Mandrill](http://blog.mandrill.com/)   
-        [Medallia](http://engineering.medallia.com/blog/)   
-        [Medium](http://medium.com/medium-eng)   
-        [MemSQL](http://blog.memsql.com/content/engineering/)   
-        [Mixpanel](http://code.mixpanel.com)   
-        [Monetate](http://engineering.monetate.com/)   
-        [MoneyBird](http://engineering.moneybird.com/)   
-        [Monsanto](http://engineering.monsanto.com/)   
-        [Mozilla Automation Team](http://planet.mozilla.org/ateam/)   
-        [Mozilla Release Engineering](http://planet.mozilla.org/releng/)   
-        [Moove it](http://blog.moove-it.com/)   
-        [nerdish](b naturey http://nerdishbynature.com/blog/)   
-        [Netflix](http://techblog.netflix.com/)   
-        [New York Times](http://open.blogs.nytimes.com)   
-        [Nextdoor](https://engblog.nextdoor.com/)   
-        [NPR Apps](http://blog.apps.npr.org/)   
-        [Okta](http://developer.okta.com/blog/)   
-        [OpenTable](http://tech.opentable.com/)   
-        [Optimizely](https://medium.com/nerds-optimizely)   
-        [Oursky](http://code.oursky.com/)   
-        [Oyster](http://tech.oyster.com/)   
-        [Paperless Post](http://dev.paperlesspost.com/)   
-        [Parse](http://blog.parse.com/)   
-        [Paypal](https://www.paypal-engineering.com/)   
-        [Periscope](https://www.periscope.io/blog/)   
-        [Pinterest](http://engineering.pinterest.com/)   
-        [Polyvore](http://engblog.polyvore.com/)   
-        [Postmark](http://blog.postmarkapp.com/)   
-        [Prezi](https://medium.com/prezi-engineering)   
-        [Prismatic](http://blog.getprismatic.com/)   
-        [Prolific Interactive](http://blog.prolificinteractive.com/category/development/)   
-        [Quora](http://engineering.quora.com/)   
-        [Raizlabs](http://www.raizlabs.com/dev/)   
-        [Rdio](https://algorithms.rdio.com/)   
-        [Redbubble](http://artplustech.com/)   
-        [Red Hat](https://developerblog.redhat.com)   
-        [Remind](http://engineering.remind.com/)   
-        [Rent the Runway](http://dresscode.renttherunway.com/blog/)   
-        [Rightscale](http://eng.rightscale.com/)   
-        [RisingStack](http://blog.risingstack.com/)   
-        [Salesforce](https://developer.salesforce.com/blogs/engineering/)   
-        [Schibsted](Tec Polskah http://www.schibsted.pl/blog/)   
-        [Semaphore](C CommunityI https://semaphoreci.com/community)   
-        [Sensible](http://blog.sensible.io/)   
-        [Shape Security](http://engineering.shapesecurity.com/)   
-        [Sharethrough](https://engineering.sharethrough.com/blog)   
-        [Shopify](http://www.shopify.com/technology)   
-        [Sift Science](http://blog.siftscience.com/?category=Engineering)   
-        [Simple](https://www.simple.com/engineering)   
-        [SlideShare](http://engineering.slideshare.net/)   
-        [Socialcast](http://blog.socialcast.com/engineering/)   
-        [Songkick](http://devblog.songkick.com/)   
-        [Soundcloud](https://developers.soundcloud.com/blog/)   
-        [Spotify](https://labs.spotify.com/)   
-        [Square](https://corner.squareup.com/)   
-        [SRC CLR](https://blog.srcclr.com/)   
-        [Stormpath](https://stormpath.com/blog)   
-        [Strava](http://engineering.strava.com/)   
-        [Stripe](https://stripe.com/blog)   
-        [Takipi](http://blog.takipi.com/)   
-        [TaskRabbit](http://tech.taskrabbit.com/)   
-        [theScore](http://techblog.thescore.com/)   
-        [Thoughtbot](https://robots.thoughtbot.com/)   
-        [ThoughtWorks](http://www.thoughtworks.com/insights)   
-        [Thumbtack](https://www.thumbtack.com/engineering/)   
-        [Ticketmaster](http://tech.ticketmaster.com/)   
-        [Tilt](http://engineering.tilt.com/)   
-        [Trello](https://trello.engineering/)   
-        [Trivago](http://tech.trivago.com/)   
-        [Tumblr](http://engineering.tumblr.com/)   
-        [Twilio](https://www.twilio.com/engineering/)   
-        [Twitter](https://blog.twitter.com/engineering)   
-        [Venmo](http://engineering.venmo.com/)   
-        [VersionEye](http://blog.versioneye.com/)   
-        [Viget](http://viget.com/extend)   
-        [Vimeo](http://makingvimeo.com/)   
-        [Vine](http://engineering.vine.co/)   
-        [Vinted](http://engineering.vinted.com/)   
-        [Warby Parker](http://www.theoculists.com/)   
-        [Wattpad](http://engineering.wattpad.com/)   
-        [Wayfair](http://engineering.wayfair.com/)   
-        [Wealthfront](http://eng.wealthfront.com/)   
-        [WebEngage](http://engineering.webengage.com/)   
-        [Wix](http://engineering.wix.com/)   
-        [Wonga Technology](http://tech.wonga.com/)   
-        [XING](https://devblog.xing.com/)   
-        [Yahoo](http://yahooeng.tumblr.com/)   
-        [Yammer](https://eng.yammer.com/blog/)   
-        [Yelp](http://engineeringblog.yelp.com/)   
-        [Zalando](https://tech.zalando.com/blog/)   
-        [Zendesk](https://developer.zendesk.com/blog)   
-        [ZenPayroll](http://engineering.zenpayroll.com/)   
-        [Zesty](http://engineering.zesty.com/)   
-        [Zillow](https://engineering.zillow.com/)   
-        [Zumba](http://tech.zumba.com/)   
-        [Zynga](https://zynga.com/blogs/engineering/)   
+        <a href="http://hackers.lookout.com/">Lookout</a>
+        <a href="https://labs.magnet.me">Magnet me</a><br/>
+        <a href="http://devs.mailchimp.com/blog/">MailChimp</a><br/>
+        <a href="http://blog.mandrill.com/">Mandrill</a><br/>
+        <a href="http://engineering.medallia.com/blog/">Medallia</a><br/>
+        <a href="http://medium.com/medium-eng">Medium</a><br/>
+        <a href="http://blog.memsql.com/content/engineering/">MemSQL</a><br/>
+        <a href="http://code.mixpanel.com">Mixpanel</a><br/>
+        <a href="http://engineering.monetate.com/">Monetate</a><br/>
+        <a href="http://engineering.moneybird.com/">MoneyBird</a><br/>
+        <a href="http://engineering.monsanto.com/">Monsanto</a><br/>
+        <a href="http://planet.mozilla.org/ateam/">Mozilla Automation Team</a><br/>
+        <a href="http://planet.mozilla.org/releng/">Mozilla Release Engineering</a><br/>
+        <a href="http://blog.moove-it.com/">Moove it</a><br/>
+        <a href="b naturey http://nerdishbynature.com/blog/">nerdish</a><br/>
+        <a href="http://techblog.netflix.com/">Netflix</a><br/>
+        <a href="http://open.blogs.nytimes.com">New York Times</a><br/>
+        <a href="https://engblog.nextdoor.com/">Nextdoor</a><br/>
+        <a href="http://blog.apps.npr.org/">NPR Apps</a><br/>
+        <a href="http://developer.okta.com/blog/">Okta</a><br/>
+        <a href="http://tech.opentable.com/">OpenTable</a><br/>
+        <a href="https://medium.com/nerds-optimizely">Optimizely</a><br/>
+        <a href="http://code.oursky.com/">Oursky</a><br/>
+        <a href="http://tech.oyster.com/">Oyster</a><br/>
+        <a href="http://dev.paperlesspost.com/">Paperless Post</a><br/>
+        <a href="http://blog.parse.com/">Parse</a><br/>
+        <a href="https://www.paypal-engineering.com/">Paypal</a><br/>
+        <a href="https://www.periscope.io/blog/">Periscope</a><br/>
+        <a href="http://engineering.pinterest.com/">Pinterest</a><br/>
+        <a href="http://engblog.polyvore.com/">Polyvore</a><br/>
+        <a href="http://blog.postmarkapp.com/">Postmark</a><br/>
+        <a href="https://medium.com/prezi-engineering">Prezi</a><br/>
+        <a href="http://blog.getprismatic.com/">Prismatic</a><br/>
+        <a href="http://blog.prolificinteractive.com/category/development/">Prolific Interactive</a><br/>
+        <a href="http://engineering.quora.com/">Quora</a><br/>
+        <a href="http://www.raizlabs.com/dev/">Raizlabs</a><br/>
+        <a href="https://algorithms.rdio.com/">Rdio</a><br/>
+        <a href="http://artplustech.com/">Redbubble</a><br/>
+        <a href="https://developerblog.redhat.com">Red Hat</a><br/>
+        <a href="http://engineering.remind.com/">Remind</a><br/>
+        <a href="http://dresscode.renttherunway.com/blog/">Rent the Runway</a><br/>
+        <a href="http://eng.rightscale.com/">Rightscale</a><br/>
+        <a href="http://blog.risingstack.com/">RisingStack</a><br/>
+        <a href="https://developer.salesforce.com/blogs/engineering/">Salesforce</a><br/>
+        <a href="Tec Polskah http://www.schibsted.pl/blog/">Schibsted</a><br/>
+        <a href="C CommunityI https://semaphoreci.com/community">Semaphore</a><br/>
+        <a href="http://blog.sensible.io/">Sensible</a><br/>
+        <a href="http://engineering.shapesecurity.com/">Shape Security</a><br/>
+        <a href="https://engineering.sharethrough.com/blog">Sharethrough</a><br/>
+        <a href="http://www.shopify.com/technology">Shopify</a><br/>
+        <a href="http://blog.siftscience.com/?category=Engineering">Sift Science</a><br/>
+        <a href="https://www.simple.com/engineering">Simple</a><br/>
+        <a href="http://engineering.slideshare.net/">SlideShare</a><br/>
+        <a href="http://blog.socialcast.com/engineering/">Socialcast</a><br/>
+        <a href="http://devblog.songkick.com/">Songkick</a><br/>
+        <a href="https://developers.soundcloud.com/blog/">Soundcloud</a><br/>
+        <a href="https://labs.spotify.com/">Spotify</a><br/>
+        <a href="https://corner.squareup.com/">Square</a><br/>
+        <a href="https://blog.srcclr.com/">SRC CLR</a><br/>
+        <a href="https://stormpath.com/blog">Stormpath</a><br/>
+        <a href="http://engineering.strava.com/">Strava</a><br/>
+        <a href="https://stripe.com/blog">Stripe</a><br/>
+        <a href="http://blog.takipi.com/">Takipi</a><br/>
+        <a href="http://tech.taskrabbit.com/">TaskRabbit</a><br/>
+        <a href="http://techblog.thescore.com/">theScore</a><br/>
+        <a href="https://robots.thoughtbot.com/">Thoughtbot</a><br/>
+        <a href="http://www.thoughtworks.com/insights">ThoughtWorks</a><br/>
+        <a href="https://www.thumbtack.com/engineering/">Thumbtack</a><br/>
+        <a href="http://tech.ticketmaster.com/">Ticketmaster</a><br/>
+        <a href="http://engineering.tilt.com/">Tilt</a><br/>
+        <a href="https://trello.engineering/">Trello</a><br/>
+        <a href="http://tech.trivago.com/">Trivago</a><br/>
+        <a href="http://engineering.tumblr.com/">Tumblr</a><br/>
+        <a href="https://www.twilio.com/engineering/">Twilio</a><br/>
+        <a href="https://blog.twitter.com/engineering">Twitter</a><br/>
+        <a href="http://engineering.venmo.com/">Venmo</a><br/>
+        <a href="http://blog.versioneye.com/">VersionEye</a><br/>
+        <a href="http://viget.com/extend">Viget</a><br/>
+        <a href="http://makingvimeo.com/">Vimeo</a><br/>
+        <a href="http://engineering.vine.co/">Vine</a><br/>
+        <a href="http://engineering.vinted.com/">Vinted</a><br/>
+        <a href="http://www.theoculists.com/">Warby Parker</a><br/>
+        <a href="http://engineering.wattpad.com/">Wattpad</a><br/>
+        <a href="http://engineering.wayfair.com/">Wayfair</a><br/>
+        <a href="http://eng.wealthfront.com/">Wealthfront</a><br/>
+        <a href="http://engineering.webengage.com/">WebEngage</a><br/>
+        <a href="http://engineering.wix.com/">Wix</a><br/>
+        <a href="http://tech.wonga.com/">Wonga Technology</a><br/>
+        <a href="https://devblog.xing.com/">XING</a><br/>
+        <a href="http://yahooeng.tumblr.com/">Yahoo</a><br/>
+        <a href="https://eng.yammer.com/blog/">Yammer</a><br/>
+        <a href="http://engineeringblog.yelp.com/">Yelp</a><br/>
+        <a href="https://tech.zalando.com/blog/">Zalando</a><br/>
+        <a href="https://developer.zendesk.com/blog">Zendesk</a><br/>
+        <a href="http://engineering.zenpayroll.com/">ZenPayroll</a><br/>
+        <a href="http://engineering.zesty.com/">Zesty</a><br/>
+        <a href="https://engineering.zillow.com/">Zillow</a><br/>
+        <a href="http://tech.zumba.com/">Zumba</a><br/>
+        <a href="https://zynga.com/blogs/engineering/">Zynga</a><br/>
     </div>
 </div>
 <br>
-**Individuals/Group Contributors**   
-[Jeff Atwood](http://blog.codinghorror.com/)   
-[John Resig](http://ejohn.org/)   
-[Paul Graham](http://www.paulgraham.com/articles.html)   
+**Individuals/Group Contributors**
+[Jeff Atwood](http://blog.codinghorror.com/)
+[John Resig](http://ejohn.org/)
+[Paul Graham](http://www.paulgraham.com/articles.html)
 [Zach Holman](http://zachholman.com/)
